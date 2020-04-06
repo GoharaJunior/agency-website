@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;0,800;0,900;1,600&display=swap');
 
 /*=== CORES PADRÕES===*/
 :root {
@@ -25,9 +26,10 @@ body {
 }
 
 .info{
+  flex-wrap: wrap;
   display: flex;
   justify-content: space-between;
-  max-width: 900px;
+  max-width: 1150px;
   margin: 0 auto;
   padding: 21px;
 }
@@ -44,14 +46,16 @@ body {
 
 .info-wrap a {
   color: #716C80;
+  font-weight: 600;
 }
 
 .info h1, p {
   font-size: 16px;
+  font-weight: 700;
 }
 /*===MENU===*/
 .menu {
-  max-width: 900px;
+  max-width: 1150px;
   margin: 0 auto;
   padding: 30px 0;
   display: flex;
@@ -62,6 +66,7 @@ body {
 
 .menu-nav {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .menu-nav img {
@@ -79,7 +84,7 @@ body {
   font-size: 16px;
   display: block;
   padding: 10px;
-  font-weight: 600;
+  font-weight: 700;
   color: #5B5766;
 }
 
@@ -104,6 +109,7 @@ body {
   width: 75px;
   height: 41px;
   font-size: 14px;
+  font-weight: 600;
   border-radius: 30px;
   border: 1px solid var(--btn-color);
   color: var(--btn-color);
@@ -119,4 +125,71 @@ body {
 .btn-second {
   width: 150px;
   height: 41;
+}
+/*===INTRODUÇÃO===*/
+.intro-bg {
+  height: 750px;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  justify-content: space-between;
+}
+
+.intro-info {
+  
+}
+
+.intro-info h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  max-width: 330px;
+  margin-bottom: 30px;
+  color: #554D89;
+}
+
+.intro-info p {
+  font-size: 22px;
+  max-width: 370px;
+  margin-bottom: 30px;
+
+}
+
+.intro-img {
+  color: #5B5766;
+  margin-left: 50px;
+}
+
+.btn-2 {
+  font-family: 'Poppins', sans-serif;
+  width: 150px;
+  height: 41px;
+  margin-right: 45px;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+  background-image: linear-gradient(27deg, #6852ed 0%, #ba43fc 100%);
+}
+
+.btn-2:hover {
+  transition: 300ms;
+  filter: brightness(90%);
+}
+
+.btn-3 {
+  font-size: 16px;
+  align-self: center;
+  color: #5B5766;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn-3:hover {
+  color: #6852ed;
+  transition: 300ms;
 }
