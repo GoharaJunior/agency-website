@@ -128,7 +128,7 @@ body {
 }
 /*===INTRODUÇÃO===*/
 .intro-bg {
-  height: 750px;
+  height: 670px;
   max-width: 1150px;
   margin: 0 auto;
 }
@@ -141,7 +141,7 @@ body {
 }
 
 .intro-info {
-  
+  margin-top: 50px;
 }
 
 .intro-info h1 {
@@ -192,4 +192,15 @@ body {
 .btn-3:hover {
   color: #6852ed;
   transition: 300ms;
+}
+
+.scroll-down {
+  margin: 0 auto;
+  width: 90px;
+  position: relative;
+  top: -160px;
+}
+
+.scroll-down:hover {
+  filter: brightness(90%);
 }
