@@ -8,5 +8,31 @@
 
 body {
   font-family: 'Nunito', sans-serif;
+  color: #716C80;
 }
 
+/*===HEADER===*/
+.info-bg {
+  border-bottom: 1px solid #E1E4ED;
+}
+
+.info{
+  display: flex;
+  justify-content: space-between;
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 21px;
+}
+
+.info-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.info-wrap img {
+  margin-right: 5px;
+}
+
+.info h1, p {
+  font-size: 16px;
+}
