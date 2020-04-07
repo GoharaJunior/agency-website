@@ -204,3 +204,47 @@ body {
 .scroll-down:hover {
   filter: brightness(90%);
 }
+/*===BULLET POINTS===*/
+.bullet-bg {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.bullet-points {
+  display: flex;
+  margin-top: 70px;
+}
+
+.bullet-box {
+  width: 361px;
+  height: 150px;
+  padding: 35px;
+  margin: 15px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  filter: drop-shadow(0 0 10px #e1e4ed);
+
+}
+
+.bullet-box:hover, .hover {
+  color: white;
+  transition: 300ms;
+  filter: drop-shadow(0 0 10px rgba(104,82,237,0.8));
+  background-image: linear-gradient(27deg, #6852ed 0%, #ba43fc 100%);
+}
+
+.bullet-box img {
+  margin-bottom: 20px;
+}
+
+.bullet-box h2 {
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 15px;
+  color: #554D89;
+}
+
+.bullet-box p {
+  color: #716C80;
+  font-weight: normal;
+}
+/*===SPLIT===*/
