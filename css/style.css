@@ -248,3 +248,36 @@ body {
   font-weight: normal;
 }
 /*===SPLIT===*/
+.split-bg {
+  margin-top: 80px;
+}
+
+.split {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1150px;
+  justify-content: center;
+  align-items: center;
+}
+
+.split-info {
+  margin-left: 20px;
+}
+
+.split h2 {
+  font-family: 'Poppins', sans-serif;
+  color: #554D89;
+  font-size: 28px;
+  max-width: 332px;
+  margin-bottom: 30px;
+}
+
+.split p {
+  color: #716C80;
+  max-width: 430px;
+  margin-bottom: 30px;
+}
+
+.split-img {
+  margin-right: 20px;
+}
