@@ -167,7 +167,7 @@ body {
 .btn-2 {
   font-family: 'Poppins', sans-serif;
   width: 150px;
-  height: 41px;
+  height: 50px;
   margin-right: 45px;
   font-size: 16px;
   font-weight: 400;
@@ -208,6 +208,7 @@ body {
 .bullet-bg {
   max-width: 1150px;
   margin: 0 auto;
+  
 }
 
 .bullet-points {
@@ -258,6 +259,8 @@ body {
   max-width: 1150px;
   justify-content: center;
   align-items: center;
+  justify-content: space-between;
+
 }
 
 .split-info {
@@ -314,15 +317,17 @@ body {
 }
 /*===SPLIT02===*/
 .split2-bg {
+
   margin: 80px 0;
 }
 
 .split2 {
+  max-width: 1150px;
   display: flex;
   margin: 0 auto;
-  max-width: 1150px;
   justify-content: center;
   align-items: center;
+  justify-content: space-between;
 }
 
 .split2-info {
@@ -342,3 +347,54 @@ body {
   max-width: 430px;
   margin-bottom: 30px;
 }
+/*===SERVICES===*/
+.services-bg {
+  margin: 0 auto;
+  max-width: 1150px;
+}
+
+.services {
+  display: flex;
+}
+
+.services-info {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 260ox;
+}
+
+.info2 {
+  max-width: 650px;
+  align-self: center;
+}
+
+.info2 h2 {
+  font-size: 28px;
+  font-family: 'Poppins', sans-serif;
+  color: #554D89;
+  margin: 22px 0;
+}
+
+.info2 p {
+  font-size: 18px;
+  color: #5B5766;
+  margin-bottom: 30px;
+}
+
+.info1 {
+  width: 250px;
+  height: 150px;
+  padding: 35px;
+  margin: 15px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  filter: drop-shadow(0 0 10px #e1e4ed);
+}
+
+.info1 h2 {
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: #554D89;
+  margin-bottom: 15px;
+}
+/*===SKILLS===*/
