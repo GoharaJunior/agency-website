@@ -29,7 +29,7 @@ body {
   flex-wrap: wrap;
   display: flex;
   justify-content: space-between;
-  max-width: 1150px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 21px;
 }
@@ -268,7 +268,7 @@ body {
   font-family: 'Poppins', sans-serif;
   color: #554D89;
   font-size: 28px;
-  max-width: 330px;
+  max-width: 300px;
   margin-bottom: 30px;
 }
 
@@ -311,4 +311,34 @@ body {
 
 .video-info img:hover {
   filter: brightness(90%);
+}
+/*===SPLIT02===*/
+.split2-bg {
+  margin: 80px 0;
+}
+
+.split2 {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1150px;
+  justify-content: center;
+  align-items: center;
+}
+
+.split2-info {
+  margin-left: 20px;
+}
+
+.split2 h2 {
+  font-family: 'Poppins', sans-serif;
+  color: #554D89;
+  font-size: 28px;
+  max-width: 400px;
+  margin-bottom: 30px;
+}
+
+.split2 p {
+  color: #716C80;
+  max-width: 430px;
+  margin-bottom: 30px;
 }
