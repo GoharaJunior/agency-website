@@ -406,19 +406,21 @@ p {
   margin-bottom: 15px;
 }
 /*===SKILLS===*/
-.skills {
-  margin: 120px 0;
-}
-
 
 .skills-bg {
   max-width: 1150px;
   margin: 0 auto;
 }
 
+.skills {
+  display: flex;
+  margin: 120px 0;
+  justify-content: space-between;
+
+}
 
 .skills-info {
-  max-width: 650px;
+  max-width: 480px;
   align-self: center;
 }
 
@@ -453,4 +455,71 @@ p {
 .btn-4:hover {
   transition: 300ms;
   filter: brightness(90%);
+}
+/*PROGRESS*/
+.content-progress {
+  width: 556px;
+}
+
+.progress {
+  background-color: #d8d8d8;
+  border-radius: 20px;
+  height: 10px;
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+.progress-info p {
+  font-size: 18px;
+  color: #5B5766;
+  margin-bottom: 15px;
+}
+
+.progress-done1 {
+  background: linear-gradient(to left, #6852ed, #ba43fc);
+  box-shadow: 0 3px 3px -5px #6852ed, 0 2px 5px #6852ed;
+  border-radius: 20px;
+  color: #fff;
+  height: 100%;
+  width: 530px;
+  /* opacity: 0; */
+  transform: 1s ease;
+}
+
+.progress-done2 {
+  background: linear-gradient(to left, #6852ed, #ba43fc);
+  box-shadow: 0 3px 3px -5px #6852ed, 0 2px 5px #6852ed;
+  border-radius: 20px;
+  color: #fff;
+  height: 100%;
+  width: 450px;
+  /* opacity: 0; */
+  transform: 1s ease;
+}
+
+.progress-done3 {
+  background: linear-gradient(to left, #6852ed, #ba43fc);
+  box-shadow: 0 3px 3px -5px #6852ed, 0 2px 5px #6852ed;
+  border-radius: 20px;
+  color: #fff;
+  height: 100%;
+  width: 300px;
+  /* opacity: 0; */
+  transform: 1s ease;
+}
+
+.progress-done4 {
+  background: linear-gradient(to left, #6852ed, #ba43fc);
+  box-shadow: 0 3px 3px -5px #6852ed, 0 2px 5px #6852ed;
+  border-radius: 20px;
+  color: #fff;
+  height: 100%;
+  width: 530px;
+  /* opacity: 0; */
+  transform: 1s ease;
+}
+
+.progress-info {
+  display: flex;
+  justify-content: space-between;
 }
