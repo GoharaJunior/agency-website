@@ -530,18 +530,22 @@ p {
   background-image: url(/img/call-to-action-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
 }
 
 .call-to-action {
-
-
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  max-width: 1150px;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
 }
-
-
 
 /* Estilização botão */
 .call-to-action h3 {
-  font-size: 26px;
+  font-size: 25px;
   font-weight: 600;
   color: #554D89;
   font-family: 'Poppins', sans-serif;
