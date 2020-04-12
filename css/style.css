@@ -12,6 +12,7 @@
   padding: 0;
   text-decoration: none;
   list-style: none;
+  /* box-sizing: border-box; */
 
 }
 
@@ -213,7 +214,6 @@ p {
 .bullet-bg {
   max-width: 1150px;
   margin: 0 auto;
-  
 }
 
 .bullet-points {
@@ -567,3 +567,117 @@ p {
   transition: 300ms;
   color: #fff;
 }
+/*===PRICE===*/
+.price-content {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1150px;
+  margin: 130px auto;
+  justify-content: space-between;
+}
+
+.price-list {
+  padding: 62px;
+  width: 361px;
+  height: 585px;
+  border-radius: 10px;
+  filter: drop-shadow(0 0 10px #e1e4ed);
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.list-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list-info h3 {
+  color: #554D89;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+.list-info p {
+  color: #EF7171;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+.list-info span {
+  display: flex;
+  width: 86px;
+  align-items: center;
+  justify-content: center;
+  height: 26px;
+  border-radius: 13px;
+  background-color: #E1E4ED;
+}
+
+.price-list .price {
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  color: #554D89;
+
+}
+
+.price:before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  border-radius: 1px;
+  margin: 15px 0;
+  background-color: #ba43fc;
+
+}
+
+.month {
+  font-size: 16px;
+  color: rgb(180, 180, 180);
+  font-family: 'Nunito', sans-serif;
+  margin-bottom: 40px;
+}
+
+
+.btn-5 {
+  font-family: 'Poppins', sans-serif;
+  width: 223px;
+  height: 50px;
+  margin-right: 45px;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+  background-image: linear-gradient(27deg, #6852ed 0%, #ba43fc 100%);
+}
+
+.btn-5:hover {
+  transition: 300ms;
+  filter: brightness(90%);
+}
+
+.price-info li {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #716C80;
+  font-family: 'Nunito', sans-serif;
+
+}
+
+.price-info img {
+  margin-right: 5px;
+}
+
+.price-info .btn-5 {
+  margin-top: 20px;
+}
+
+
+
+
+
