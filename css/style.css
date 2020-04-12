@@ -676,8 +676,29 @@ p {
 .price-info .btn-5 {
   margin-top: 20px;
 }
+/*===SUPPORT===*/
+.support-bg {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1150px;
+  justify-content: space-between;
+}
 
+.support {
+  max-width: 484px;
+  margin: 0 auto;
+}
 
+.support h3 {
+  font-family: 'Poppins', sans-serif;
+  color: #554D89;
+  font-size: 20px;
+  margin: 10px 0px 25px 0px;
+}
+
+.support p {
+  margin-bottom: 15px;
+}
 
 
 
