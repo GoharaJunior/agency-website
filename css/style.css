@@ -682,6 +682,7 @@ p {
   margin: 0 auto;
   max-width: 1150px;
   justify-content: space-between;
+  margin-bottom: 80px;
 }
 
 .support {
@@ -699,6 +700,23 @@ p {
 .support p {
   margin-bottom: 15px;
 }
+/*===FOOTER===*/
+.footer-bg {
+  height: 100px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
 
+}
 
+.footer {
+  margin: 0 auto;
+  max-width: 1150px;
+}
 
+.footer p {
+  color: #716C80;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
