@@ -228,7 +228,7 @@ p {
   margin-top: 70px;
 }
 
-#bullet-box {
+.bullet-box {
   width: 361px;
   height: 150px;
   padding: 35px;
@@ -239,21 +239,12 @@ p {
 
 }
 
-#bullet-box:hover {
+.bullet-box:hover {
   color: white;
   transition: 300ms;
-  filter: drop-shadow(0 0 10px rgba(104,82,237,0.8));
-  background-image: linear-gradient(27deg, #6852ed 0%, #ba43fc 100%);
+  filter: drop-shadow(0 0 10px rgba(104,82,237,0.4));
+  /* background-image: linear-gradient(27deg, #6852ed 0%, #ba43fc 100%); */
 }
-
-.icon-price {
-  width: 30px;
-  height: 30px;
-}
-
-.icon-price:hover {
-  fill: #fff;
-} 
 
 .bullet-box h2 {
   font-family: 'Poppins', sans-serif;
