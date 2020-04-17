@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img width="150px" alt="Launchbase" src="https://i.imgur.com/c3RQg9k.png" />
+    <img width="150px" alt="Logo Agency Website" src="https://user-images.githubusercontent.com/57417305/79582413-1abef180-80a2-11ea-98a1-af433fa5878a.png" />
 </h1>
 
 <h2 align="center">
