@@ -13,6 +13,5 @@
     - FLEX BOX
 </p>
 
-<h1 align="center">
-    <img alt="Launchbase" src="https://i.imgur.com/muMsStd.png" />
-</h1>
+![68747470733a2f2f692e696d6775722e636f6d2f6d754d735374642e706e67](https://user-images.githubusercontent.com/57417305/79582340-01b64080-80a2-11ea-97ff-6704d6bf6deb.png)
+
